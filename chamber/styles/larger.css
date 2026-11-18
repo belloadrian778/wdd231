@@ -30,7 +30,7 @@ main #members.grid {
     }
 }
 
-footer {
+body > footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +43,7 @@ footer {
     flex: 1;
 }
 
-.footer-info {
+footer .footer-info {
     margin-top: 0;
     padding-top: 0;
     border-top: none;
