@@ -163,3 +163,7 @@ footer {
     height: 32px;
     filter: brightness(0) invert(1);
 }
+nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
