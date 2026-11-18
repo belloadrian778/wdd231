@@ -1,3 +1,8 @@
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -12,32 +17,56 @@ header {
     padding: 15px 20px;
     background-color: #1e3a5f;
     color: white;
+    width: 100%;
 }
 
 header span {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
 nav {
     background-color: #172c49;
     padding: 15px;
+    display: none;
+    flex-direction: column;
+}
+
+nav.open {
+    display: flex;
 }
 
 nav a {
+    display: block;
     color: white;
     text-decoration: none;
     margin-right: 20px;
+    padding: 8px;
+}
+
+#menu-button {
+    margin-left: auto;
+    padding: 8px 12px;
+    font-size: 1.5rem;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-shrink: 0;
 }
 
 main {
-    max-width: 1100px;
+    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
 }
 
 section {
     background-color: white;
+    width: 100%;
+    min-width: 0;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 8px;
@@ -55,13 +84,6 @@ section h2 {
 section img {
     max-width: 100%;
     height: auto;
-}
-
-footer {
-    background-color: #1e3a5f;
-    color: white;
-    text-align: center;
-    padding: 20px;
 }
 
 .course-filters {
@@ -109,54 +131,11 @@ footer {
     border: 1px solid #94a3b8;
 }
 
-#menu-button {
-    margin-left: auto;
-    padding: 8px 12px;
-    font-size: 1.5rem;
+footer {
+    background-color: #1e3a5f;
     color: white;
-    background: transparent;
-    border: 1px solid white;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-nav {
-    display: none;
-    flex-direction: column;
-}
-
-nav.open {
-    display: flex;
-}
-
-nav a {
-    display: block;
-    padding: 8px;
-}
-
-header {
-    width: 100%;
-    box-sizing: border-box;
-}
-
-main {
-    width: 100%;
-    max-width: 100%;
-    padding: 15px;
-    margin: 0 auto;
-}
-
-section {
-    width: 100%;
-    min-width: 0;
-}
-
-header span {
-    font-size: 1.2rem;
-}
-
-#menu-button {
-    flex-shrink: 0;
+    text-align: center;
+    padding: 20px;
 }
 
 .social-links {
@@ -168,6 +147,9 @@ header span {
 }
 
 .social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     text-decoration: underline;
 }
@@ -180,10 +162,4 @@ header span {
     width: 32px;
     height: 32px;
     filter: brightness(0) invert(1);
-}
-
-.social-links a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
 }
