@@ -1,0 +1,59 @@
+[
+    {
+        "name": "American Fork Business Center",
+        "address": "American Fork, UT",
+        "phone": "801-555-0101",
+        "website": "https://example.com",
+        "image": "business-center.webp",
+        "membership": 2
+    },
+        {
+        "name": "American Fork Coffee House",
+        "address": "American Fork, UT",
+        "phone": "801-555-0102",
+        "website": "https://example.com",
+        "image": "coffee-house.webp",
+        "membership": 3
+    },
+        {
+        "name": "American Fork Auto Repair",
+        "address": "American Fork, UT",
+        "phone": "801-555-0102",
+        "website": "https://example.com",
+        "image": "auto-repair.webp",
+        "membership": 1
+    },
+        {
+        "name": "American Fork Fitness Center",
+        "address": "American Fork, UT",
+        "phone": "801-555-0102",
+        "website": "https://example.com",
+        "image": "fitness-center.webp",
+        "membership": 1
+    },
+        {
+        "name": "American Fork Family Dental",
+        "address": "American Fork, UT",
+        "phone": "801-555-0102",
+        "website": "https://example.com",
+        "image": "family-dental.webp",
+        "membership": 2
+    },
+        {
+        "name": "American Fork Home Services",
+        "address": "American Fork, UT",
+        "phone": "801-555-0102",
+        "website": "https://example.com",
+        "image": "home-services.webp",
+        "membership": 3
+    },
+        {
+        "name": "American Fork Technology Solutions",
+        "address": "American Fork, UT",
+        "phone": "801-555-0102",
+        "website": "https://example.com",
+        "image": "technology.webp",
+        "membership": 1
+    }
+        
+]
