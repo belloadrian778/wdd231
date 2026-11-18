@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Adrian Bello | WDD 231 | Course Home Page</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Adrian Bello's WDD 231 course home page showcasing my projects and what I have learned about web development.">
+    <meta name="author" content="Adrian Bello">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/courses.js" defer></script>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/footer.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="AB logo" width="50" height="50">
+        <span>Adrian Bello</span>
+        <button id="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-nav">☰</button>
+
+    </header>
+    <nav id="primary-nav">
+    <a href="index.html">Home</a>
+    <a href="#">Chamber</a>
+    <a href="#">Final</a>
+    </nav>
+<main>
+    <h1>Home</h1>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            My name is Adrian Bello, and I am originally from Brazil.
+            I currently live in Utah and am studying Software Development
+            at BYU-Pathway. I enjoy learning about technology, programming,
+            and building websites. My goal is to become a software developer.
+        </p>
+    </section>
+
+    <section>
+        <h2>Student Photo</h2>
+        <img src="images/student-photo.jpg" alt="Adrian Bello at the Washington D.C. Temple" width="300" height="300">
+    </section>
+
+    <section>
+        <h2>Web Certificate Courses</h2>
+        <div class="course-filters">
+            <button id="all" type="button">All</button>
+            <button id="cse" type="button">CSE</button>
+            <button id="wdd" type="button">WDD</button>
+        </div>
+
+        <div id="course-list"></div>
+
+        <p>Total Credits: <span id="total-credits">0</span></p>
+    </section>
+</main>
+
+<footer>
+    <div class="social-links">
+    <a href="https://github.com/belloadrian778"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="GitHub profile">
+        GitHub
+       <img src="images/github.svg" alt="" width="32" height="32"> 
+    </a>
+
+    <a href="https://www.linkedin.com/"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="LinkedIn profile">
+        LinkedIn
+       <img src="images/linkedin.svg" alt="" width="32" height="32"> 
+    </a>
+</div>
+    <p>© <span id="currentyear"></span> Adrian Bello | Utah, USA</p>
+    <p id="lastModified"></p>
+</footer>
+
+</body>
+
+</html>
